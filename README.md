@@ -18,38 +18,35 @@ Transfer funds from the Savings Account to the Main Account.
 Exception handling for insufficient balance.
 Fee deduction for certain transactions in the FeeAccount class.
 
-# Usage
-Run the main() function to start the ATM simulator.
+# Usage the main(s) function to start the ATM simulator.
 Choose from various options in the menu to perform different operations.
 
-## Classes
-
-1. **CreateMainAccount:**
-   - This class is used to create a Main Account.
-   - Its primary functionality may include initializing the account with the owner's name and an initial balance.
+## Classes. **CreateMainAccount:**
+   - This classs is used to create a Main Account.
+   - Its primary functionality include initializing the account with the owner's name and an initial balance.
 
 2. **CreateSavingsAccount:**
-   - This class is used to create a Savings Account.
-   - Its primary functionality may include initializing the account with the owner's name and an initial balance.
+   - This classs is used to create a Savings Account.
+   - Its primary functionality include initializing the account with the owner's name and an initial balance.
 
 3. **BankAccounts:**
    - A base class serving as the foundation for Main Account and Savings Account.
-   - It may implement common operations such as deposit, withdrawal, and balance checking that can be inherited by its subclasses.
+   - It implements common operations such as deposit, withdrawal, and balance checking that can be inherited by its subclasses.
 
 4. **FeeAccount:**
    - This class inherits from BankAccounts and introduces an additional fee feature for withdrawals.
-   - It may include logic to charge an extra fee when performing withdrawals.
+   - It includes logic to charge an extra fee when performing withdrawals.
 
 5. **SavingsAcct:**
    - This class inherits from FeeAccount and can calculate interest on the account balance.
-   - It may include methods to calculate interest and retrieve the balance after interest has been applied.
+   - It includes methods to calculate interest and retrieve the balance after interest has been applied.
 
 
 
 ## How to Run
 Clone this repository to your local machine.
 Make sure you have Python installed.
-Run the main() function in the atm_simulator.py file.
+Run the main() function in the main.py file.
 Follow the on-screen prompts to interact with the ATM simulator.
 
 
