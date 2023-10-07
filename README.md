@@ -1,5 +1,5 @@
 
-Sure, here's a basic readme.md file for your object-oriented programming (OOP) ATM simulator program:
+here's a basic readme.md file for my object-oriented programming (OOP) ATM simulator program:
 
 ### OOP ATM Simulator 
 This is a simple ATM simulator program implemented using object-oriented programming (OOP) principles in Python. The program allows users to create main accounts and savings accounts, check balances, deposit and withdraw funds, and transfer money between accounts. It demonstrates inheritance and encapsulation concepts in OOP.
